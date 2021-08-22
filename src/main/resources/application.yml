@@ -4,3 +4,8 @@ spring:
     url: jdbc:postgresql://localhost:5432/sb_blog
     username: skillbox
     password: skillbox
+logging:
+  level:
+    org:
+      springframework:
+        web: TRACE
